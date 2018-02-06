@@ -1,0 +1,47 @@
+2018-01-30 16:25:37.164 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation():115 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-01-30 16:25:37.617 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():358 -Property 'configLocation' not specified, using default MyBatis Configuration
+2018-01-30 16:25:37.753 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():468 -Parsed mapper file: 'file [E:\WorkSpaceForMyself\ssm_quartz\target\classes\org\ssm\dufy\mapper\UserMapper.xml]'
+2018-01-30 16:25:37.829 INFO  [main] org.quartz.impl.StdSchedulerFactory.instantiate():1184 -Using default implementation for ThreadExecutor
+2018-01-30 16:25:37.832 INFO  [main] org.quartz.simpl.SimpleThreadPool.initialize():268 -Job execution threads will use class loader of thread: main
+2018-01-30 16:25:37.844 INFO  [main] org.quartz.core.SchedulerSignalerImpl.<init>():61 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-01-30 16:25:37.845 INFO  [main] org.quartz.core.QuartzScheduler.<init>():240 -Quartz Scheduler v.2.2.1 created.
+2018-01-30 16:25:37.854 INFO  [main] o.s.scheduling.quartz.LocalDataSourceJobStore.initialize():667 -Using db table-based data access locking (synchronization).
+2018-01-30 16:25:37.857 INFO  [main] o.s.scheduling.quartz.LocalDataSourceJobStore.initialize():145 -JobStoreCMT initialized.
+2018-01-30 16:25:37.858 INFO  [main] org.quartz.core.QuartzScheduler.initialize():305 -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 2 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2018-01-30 16:25:37.858 INFO  [main] org.quartz.impl.StdSchedulerFactory.instantiate():1339 -Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-01-30 16:25:37.858 INFO  [main] org.quartz.impl.StdSchedulerFactory.instantiate():1343 -Quartz scheduler version: 2.2.1
+2018-01-30 16:25:37.860 INFO  [main] org.quartz.core.QuartzScheduler.setJobFactory():2311 -JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@b66ddf3
+2018-01-30 16:25:37.892 DEBUG [main] org.quartz.impl.jdbcjobstore.StdRowLockSemaphore.obtainLock():107 -Lock 'TRIGGER_ACCESS' is desired by: main
+2018-01-30 16:25:38.071 DEBUG [main] org.quartz.impl.jdbcjobstore.StdRowLockSemaphore.executeSQL():92 -Lock 'TRIGGER_ACCESS' is being obtained: main
+2018-01-30 16:25:38.083 DEBUG [main] org.quartz.impl.jdbcjobstore.StdRowLockSemaphore.obtainLock():116 -Lock 'TRIGGER_ACCESS' given to: main
+2018-01-30 16:25:38.087 DEBUG [main] o.s.scheduling.quartz.LocalDataSourceJobStore.addTriggerPersistenceDelegate():183 -Adding TriggerPersistenceDelegate of type: org.quartz.impl.jdbcjobstore.SimpleTriggerPersistenceDelegate
+2018-01-30 16:25:38.088 DEBUG [main] o.s.scheduling.quartz.LocalDataSourceJobStore.addTriggerPersistenceDelegate():183 -Adding TriggerPersistenceDelegate of type: org.quartz.impl.jdbcjobstore.CronTriggerPersistenceDelegate
+2018-01-30 16:25:38.089 DEBUG [main] o.s.scheduling.quartz.LocalDataSourceJobStore.addTriggerPersistenceDelegate():183 -Adding TriggerPersistenceDelegate of type: org.quartz.impl.jdbcjobstore.CalendarIntervalTriggerPersistenceDelegate
+2018-01-30 16:25:38.090 DEBUG [main] o.s.scheduling.quartz.LocalDataSourceJobStore.addTriggerPersistenceDelegate():183 -Adding TriggerPersistenceDelegate of type: org.quartz.impl.jdbcjobstore.DailyTimeIntervalTriggerPersistenceDelegate
+2018-01-30 16:25:38.095 INFO  [main] o.s.scheduling.quartz.LocalDataSourceJobStore.recoverJobs():861 -Freed 0 triggers from 'acquired' / 'blocked' state.
+2018-01-30 16:25:38.100 DEBUG [main] o.s.scheduling.quartz.LocalDataSourceJobStore.recoverMisfiredJobs():972 -Found 0 triggers that missed their scheduled fire-time.
+2018-01-30 16:25:38.102 INFO  [main] o.s.scheduling.quartz.LocalDataSourceJobStore.recoverJobs():871 -Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2018-01-30 16:25:38.103 INFO  [main] o.s.scheduling.quartz.LocalDataSourceJobStore.recoverJobs():884 -Recovery complete.
+2018-01-30 16:25:38.104 INFO  [main] o.s.scheduling.quartz.LocalDataSourceJobStore.recoverJobs():891 -Removed 0 'complete' triggers.
+2018-01-30 16:25:38.107 INFO  [main] o.s.scheduling.quartz.LocalDataSourceJobStore.recoverJobs():896 -Removed 0 stale fired job entries.
+2018-01-30 16:25:38.108 DEBUG [main] org.quartz.impl.jdbcjobstore.StdRowLockSemaphore.releaseLock():141 -Lock 'TRIGGER_ACCESS' returned by: main
+2018-01-30 16:25:38.109 DEBUG [main] o.s.scheduling.quartz.LocalDataSourceJobStore.schedulerStarted():703 -JobStore background threads started (as scheduler was started).
+2018-01-30 16:25:38.109 INFO  [main] org.quartz.core.QuartzScheduler.start():575 -Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-01-30 16:25:38.122 DEBUG [QuartzScheduler_quartzScheduler-NON_CLUSTERED_MisfireHandler] o.s.scheduling.quartz.LocalDataSourceJobStore.manage():3933 -MisfireHandler: scanning for misfires...
+2018-01-30 16:25:38.130 INFO  [main] org.ssm.dufy.filter.LoginFilter.init():46 -init LoginFilter ...
+2018-01-30 16:25:38.152 DEBUG [QuartzScheduler_quartzScheduler-NON_CLUSTERED_MisfireHandler] o.s.scheduling.quartz.LocalDataSourceJobStore.doRecoverMisfires():3182 -Found 0 triggers that missed their scheduled fire-time.
+2018-01-30 16:25:38.153 DEBUG [quartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run():276 -batch acquisition of 0 triggers
+2018-01-30 16:25:38.845 DEBUG [Timer-0] org.quartz.utils.UpdateChecker.doCheck():54 -Checking for available updated version of Quartz...
+2018-01-30 16:25:39.867 DEBUG [Timer-0] org.quartz.utils.UpdateChecker.checkForUpdate():49 -Quartz version update check failed: Connection refused: connect
+2018-01-30 16:26:05.903 DEBUG [quartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run():276 -batch acquisition of 0 triggers
+2018-01-30 16:26:34.590 DEBUG [quartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run():276 -batch acquisition of 0 triggers
+2018-01-30 16:26:38.125 DEBUG [QuartzScheduler_quartzScheduler-NON_CLUSTERED_MisfireHandler] o.s.scheduling.quartz.LocalDataSourceJobStore.manage():3933 -MisfireHandler: scanning for misfires...
+2018-01-30 16:26:38.127 DEBUG [QuartzScheduler_quartzScheduler-NON_CLUSTERED_MisfireHandler] o.s.scheduling.quartz.LocalDataSourceJobStore.doRecoverMisfires():3182 -Found 0 triggers that missed their scheduled fire-time.
+2018-01-30 16:27:02.911 DEBUG [quartzScheduler_QuartzSchedulerThread] org.quartz.core.QuartzSchedulerThread.run():276 -batch acquisition of 0 triggers
