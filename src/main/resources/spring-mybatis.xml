@@ -7,7 +7,8 @@
    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
-<!-- 3.配置数据源 ，使用的alibba的数据库-->
+
+	<!-- 3.配置数据源 ，使用的alibba的数据库-->
 	 <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
         <!-- 基本属性 url、user、password -->        
         <property name="driverClassName" value="${jdbc_driverClassName}"/>
